@@ -1,0 +1,61 @@
+* {
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+
+body {
+    border: 2px solid red;
+    padding: 10px;
+}
+header {
+    background-color: #33FFF7;
+    border: 2px solid pink;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+nav {
+    background-color: #F933FF;
+    margin-left: 2em;
+    margin-right: 2em;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+section {
+    background-color: #558EF6;
+    display: inline-block;
+    border: 1px solid black;
+    width: 70%;
+}
+
+article {
+    background-color: #EA97F4;
+    margin: 22px 8px;
+    padding-bottom: 15%;
+}
+
+aside {
+    background-color: #F7669D;
+    display: inline-block;
+    border: 1px solid black;
+    float: right;
+    width: 27%;
+    padding-bottom: 46.5%;;
+}
+
+footer {
+    background-color: #A7A5FA;
+    border: 2px solid blueviolet;
+    margin-top: 15px;
+}
+
+p {
+    margin-left: 4px;
+}
