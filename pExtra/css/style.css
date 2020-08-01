@@ -1,0 +1,160 @@
+body {
+    background: #7080901f;
+}
+/*Nav*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 57px;
+    margin-right: 9px;
+}
+
+#logo {
+    margin-left: 14px;
+}
+
+ul {
+    display: flex;
+    padding-left: 0;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+.list-items {
+    list-style: none;
+}
+
+#btn-contact {
+    background: #2a6f2a;
+    color: white;
+    height: 37px;
+    margin-top: 7px;
+}
+#search {
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+    margin-top: 15px;
+    filter: invert(100%);
+}
+/*Contenido*/
+#title {
+    font-size: 4em;
+}
+
+hr {
+    width: 42%;
+    margin-left: 0;
+    border-width: 2px;
+    border-color: #ecba61;
+}
+
+.information {
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 30px;
+}
+
+/*Wrapper*/
+.container-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+span {
+    font-weight: bold;
+}
+
+#special-text {
+    color: #ecba61;
+}
+.img-text {
+    display: flex;
+    margin-top: 81px;
+}
+#vertical-line {
+    border-color: #ecba61;
+    width: 0.2px;
+    margin-left: 30px;
+    border-width: 2px
+}
+
+#info-text {
+    margin-left: 16px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+/*form*/
+
+.form-wrapper {
+    display: flex;
+    width: 39%;
+    flex-direction: column;
+}
+
+.wrapped-form {
+    background: #19197d;;
+    color: white;
+    border-radius: 5px;
+}
+
+.input {
+    margin-left: 10px;
+}
+
+#first-input {
+    padding-top: 22px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.form-input {
+    border-radius: 5px;
+    margin-bottom: 12px;
+    width: 303px;
+    height: 25px;
+}
+
+.first-select {
+    width: 314px;
+}
+
+.second-select {
+    width: 312px;
+}
+
+#text-form {
+    margin-left: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+#btn-form {
+    height: 35px;
+    border-radius: 5px;
+    background: #2a6f2a;
+    color: white;
+}

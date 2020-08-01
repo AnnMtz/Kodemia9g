@@ -45,6 +45,7 @@ aside {
     background-color: #F7669D;
     display: inline-block;
     border: 1px solid black;
+    margin-left: calc(100%-20px);
     float: right;
     width: 27%;
     padding-bottom: 46.5%;;
