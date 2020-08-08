@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+    color: hsl(0, 0%, 75%);
+    padding: 5px;
+}
+
+#navbar {
+    display: flex;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 22px;
+}
+
+.login {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login a {
+    margin-right: 22px;
+    text-decoration: none;
+}
+
+.login button {
+    border-radius: 25px;
+    border-color: hsl(180, 66%, 49%);
+    width: 80px;
+    color: white;
+    background: hsl(180, 66%, 49%);
+}
+
+/*container*/
+.main-container {
+    display: flex;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.text h1 {
+    font-size: 60px;
+    color: black;
+}
+
+.text p {
+    font-size: 20px;
+}
+
+.text button {
+    border-radius: 25px;
+    border-color: hsl(180, 66%, 49%);
+    width: 114px;
+    height: 33px;
+    margin-left: 10px;
+    color: white;
+    background: hsl(180, 66%, 49%)
+}
+
+.shorten {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+    position: relative;
+    bottom: -123px;
+}
+
+#shorten-img {
+    background: #3a3053;
+    width: 80%;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.input-card {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 13px;
+}
+.input-card input {
+    width: 54em;
+    border: solid 1px hsl(0, 87%, 67%);
+    border-radius: 5px;
+    height: 40px;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+.input-card input::placeholder {
+    color: hsl(0, 87%, 67%);
+}
+
+.different-input p {
+    margin-top: 0;
+    color: hsl(0, 87%, 67%);
+    font-size: 12px;
+}
+
+
+.input-card button {
+    border-radius: 10px;
+    border-color: hsl(180, 66%, 49%);
+    color: white;
+    background: hsl(180, 66%, 49%);
+    width: 119px;
+    height: 47px;
+}
+
+.main-info {
+    background: #f0f1f6;
+    min-height: 1000px;
+    box-sizing: border-box;
+}
+
+.info-links p {
+    background: white;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    color: black;
+    margin-top: 2px;
+}
+.info-links #top {
+    margin-top: 39px;
+    width: 81%;
+}
+
+.info-links p a {
+    margin-left: 30em;
+    margin-right: 11px;
+    color: hsl(180, 66%, 49%);
+}
+
+.info-links #first {
+    margin-left: 31em;
+}
+.info-links #last {
+    margin-left: 23em;
+}
+
+.info-links p button {
+    width: 67px;
+    border-radius: 5px;    
+    border-color: hsl(180, 66%, 49%);
+    color: white;
+    background: hsl(180, 66%, 49%);
+}
+
+.info-links #first-btn {
+    margin-left: 9px;
+}
+
+.info-links #second {
+    border-color: black;
+    background: black;
+}
+
+.central-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.central-main h1 {
+    color: black;
+    font-size: 48px;
+    margin-bottom: 2px;
+}
+
+.central-main p {
+    font-weight: bold;
+    font-size: 18px;
+    width: 38%;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.card-item {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: white;
+    color: #555459;
+}
+
+#card-ite {
+    background: white;
+    position: relative;
+    top: 50px;
+    width: 50%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#primary-card {
+    background: white;
+    position: relative;
+    top: 90px;  
+    width: 50%;
+}
+
+.row h2 {
+    color: #555459;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #353153;
+    background: #353153;
+    width: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -31px;
+    border-radius: 50px;
+}
+
+.last-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.last-info {
+    padding: 0%;
+    background: #3a3053;
+}
+
+#last-bg {
+    width: 100%;
+    padding: 0;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -182px;
+    align-items: center;
+}
+
+.final h1 {
+    color: white;
+}
+
+.footer {
+    background: #232027;
+}
+.final button {
+    border-radius: 15px;
+    border-color: hsl(180, 66%, 49%);
+    width: 120px;
+    height: 40px;
+    color: white;
+    background: hsl(180, 66%, 49%);
+}
+
+.img-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer-logo {
+    filter: invert(100%);
+    width: 50px;
+    height: 50px;
+}
+
+.img-footer ul {
+    display: flex;
+    flex-direction: column;
+}
